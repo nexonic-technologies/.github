@@ -53,7 +53,7 @@ We build software and give it away. No ads, no sign-up, no tracking.
     <td width="50%" valign="top">
       <a href="https://nexonictechnologies.com/project/nexonic-sentinel/"><img src="https://nexonictechnologies.com/wp-content/uploads/2026/11/nexonic-sentinel-banner.webp" alt="Nexonic Sentinel"></a>
       <h3>Nexonic Sentinel</h3>
-      A GitHub App that keeps repositories healthy with autopilot checks and SEO reports.<br><br>
+      A GitHub App that triages issues, reviews pull requests and keeps your repos healthy, so your inbox stays quiet.<br><br>
       <a href="https://nexonictechnologies.com/project/nexonic-sentinel/"><b>Explore Sentinel →</b></a>
     </td>
   </tr>
