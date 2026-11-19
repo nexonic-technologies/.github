@@ -23,10 +23,10 @@ We build software and give it away. No ads, no sign-up, no tracking.
       <a href="https://nexonictechnologies.com/project/ndm/"><b>Explore NDM →</b></a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://nexonictechnologies.com/project/stark-ai/"><img src="https://nexonictechnologies.com/wp-content/uploads/2026/11/nexonic-stark-ai-banner.webp" alt="Stark AI"></a>
-      <h3>Stark AI</h3>
-      A desktop AI assistant with a team of specialist agents and a built-in video studio. Mac and Windows apps, Linux from source.<br><br>
-      <a href="https://nexonictechnologies.com/project/stark-ai/"><b>Explore Stark AI →</b></a>
+      <a href="https://nexonictechnologies.com/project/nexonic-iptv/"><img src="https://nexonictechnologies.com/wp-content/uploads/2026/11/nexonic-iptv-banner.webp" alt="Nexonic IPTV"></a>
+      <h3>Nexonic IPTV</h3>
+      Thousands of free live TV channels from 160+ countries in one playlist, plus apps to watch them.<br><br>
+      <a href="https://nexonictechnologies.com/project/nexonic-iptv/"><b>Explore Nexonic IPTV →</b></a>
     </td>
   </tr>
   <tr>
@@ -37,21 +37,15 @@ We build software and give it away. No ads, no sign-up, no tracking.
       <a href="https://nexonictechnologies.com/project/scruvix/"><b>Explore Scruvix →</b></a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://nexonictechnologies.com/project/nexonic-iptv/"><img src="https://nexonictechnologies.com/wp-content/uploads/2026/11/nexonic-iptv-banner.webp" alt="Nexonic IPTV"></a>
-      <h3>Nexonic IPTV</h3>
-      Thousands of free live TV channels from 160+ countries in one playlist, plus apps to watch them.<br><br>
-      <a href="https://nexonictechnologies.com/project/nexonic-iptv/"><b>Explore Nexonic IPTV →</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <a href="https://nexonictechnologies.com/project/nts/"><img src="https://nexonictechnologies.com/wp-content/uploads/2026/11/nexonic-nts-banner.webp" alt="Nexonic TV Server"></a>
       <h3>Nexonic TV Server</h3>
       Run your own TV server at home and watch on any smart TV, privately.<br><br>
       <a href="https://nexonictechnologies.com/project/nts/"><b>Explore NTS →</b></a>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://nexonictechnologies.com/project/nexonic-sentinel/"><img src="https://nexonictechnologies.com/wp-content/uploads/2026/11/nexonic-sentinel-banner.webp" alt="Nexonic Sentinel"></a>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" valign="top">
+      <a href="https://nexonictechnologies.com/project/nexonic-sentinel/"><img width="50%" src="https://nexonictechnologies.com/wp-content/uploads/2026/11/nexonic-sentinel-banner.webp" alt="Nexonic Sentinel"></a>
       <h3>Nexonic Sentinel</h3>
       A GitHub App that triages issues, reviews pull requests and keeps your repos healthy, so your inbox stays quiet.<br><br>
       <a href="https://nexonictechnologies.com/project/nexonic-sentinel/"><b>Explore Sentinel →</b></a>
