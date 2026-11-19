@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="64" viewBox="0 0 1280 64" role="img" aria-label="Services">
+  <defs>
+    <linearGradient id="rb" x1="0" x2="1"><stop offset="0" stop-color="#4F46E5"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+    <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#4F46E5"/><stop offset=".08" stop-color="#4F46E5" stop-opacity="0"/><stop offset=".92" stop-color="#7C3AED" stop-opacity="0"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+    <style>.s{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif;font-size:20px;font-weight:700;fill:#fff}.d{fill:#F97316}
+    .m{animation:mv 26s linear infinite}@keyframes mv{to{transform:translateX(-1340px)}}@media (prefers-reduced-motion: reduce){.m{animation:none}}</style>
+    <g id="row">
+      <text class="s" y="40">Website Design<tspan class="d"> ✦ </tspan>SEO &amp; Google Ranking<tspan class="d"> ✦ </tspan>Google &amp; Meta Ads<tspan class="d"> ✦ </tspan>AI Chatbots<tspan class="d"> ✦ </tspan>E-commerce<tspan class="d"> ✦ </tspan>Social Media<tspan class="d"> ✦ </tspan>EdTech<tspan class="d"> ✦ </tspan>Open Source<tspan class="d"> ✦ </tspan></text>
+    </g>
+  </defs>
+  <rect width="1280" height="64" rx="14" fill="url(#rb)"/>
+  <g class="m"><use href="#row" x="20"/><use href="#row" x="1360"/></g>
+  <rect width="1280" height="64" rx="14" fill="url(#fade)"/>
+</svg>

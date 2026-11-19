@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Nexonic Technologies: websites, SEO, ads and AI automation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0D17"/>
+      <stop offset=".6" stop-color="#14123A"/>
+      <stop offset="1" stop-color="#1E1150"/>
+    </linearGradient>
+    <linearGradient id="hex" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#C7C2FF"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#E0571B" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#E0571B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity=".045"/>
+    </pattern>
+    <clipPath id="card"><rect x="0" y="0" width="1280" height="420" rx="22"/></clipPath>
+    <style>
+      .t{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif}
+      .trace{fill:none;stroke:#8B8CF8;stroke-opacity:.22;stroke-width:1.6}
+      .node{fill:#0B0D17;stroke:#8B8CF8;stroke-opacity:.5;stroke-width:1.6}
+      .word{opacity:0;animation:cycle 12s infinite}
+      .w2{animation-delay:3s}.w3{animation-delay:6s}.w4{animation-delay:9s}
+      @keyframes cycle{0%{opacity:0;transform:translateY(14px)}4%{opacity:1;transform:translateY(0)}22%{opacity:1;transform:translateY(0)}26%{opacity:0;transform:translateY(-14px)}100%{opacity:0}}
+      .float{animation:float 6s ease-in-out infinite}
+      .float2{animation:float 7s ease-in-out infinite reverse}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+      .bar{transform-box:fill-box;transform-origin:bottom;animation:grow 4s ease-in-out infinite}
+      .b2{animation-delay:.3s}.b3{animation-delay:.6s}.b4{animation-delay:.9s}.b5{animation-delay:1.2s}
+      @keyframes grow{0%,100%{transform:scaleY(.35)}50%{transform:scaleY(1)}}
+      .caret{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .ring{transform-box:fill-box;transform-origin:center;animation:spin 18s linear infinite}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      .pulse{animation:pulse 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes pulse{0%{transform:scale(.6);opacity:.9}100%{transform:scale(1.8);opacity:0}}
+      @media (prefers-reduced-motion: reduce){*{animation:none!important}.word.w1{opacity:1}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1280" height="420" fill="url(#bg)"/>
+    <rect width="1280" height="420" fill="url(#grid)"/>
+    <circle cx="1040" cy="120" r="300" fill="url(#glow)"/>
+    <circle cx="140" cy="430" r="260" fill="url(#glow2)"/>
+
+    <!-- circuit traces -->
+    <g>
+      <path id="p1" class="trace" d="M0 70 H180 L220 110 H420 L450 80 H640"/>
+      <path id="p2" class="trace" d="M0 360 H120 L160 320 H380 L420 360 H700 L740 320 H900"/>
+      <path id="p3" class="trace" d="M1280 60 H1120 L1080 100 H900 L870 70 H760"/>
+      <path id="p4" class="trace" d="M1280 380 H1160 L1120 340 H980"/>
+      <path id="p5" class="trace" d="M640 0 V40 L680 80 V130"/>
+      <circle class="node" cx="640" cy="80" r="4"/><circle class="node" cx="900" cy="320" r="4"/>
+      <circle class="node" cx="760" cy="70" r="4"/><circle class="node" cx="980" cy="340" r="4"/>
+      <circle class="node" cx="680" cy="130" r="4"/>
+      <circle r="3.5" fill="#A5B4FC"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+      <circle r="3.5" fill="#F97316"><animateMotion dur="7s" begin="1s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+      <circle r="3.5" fill="#C4B5FD"><animateMotion dur="6s" begin=".5s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></circle>
+      <circle r="3.5" fill="#F97316"><animateMotion dur="4.5s" begin="2s" repeatCount="indefinite"><mpath href="#p4"/></animateMotion></circle>
+      <circle r="3" fill="#A5B4FC"><animateMotion dur="3s" begin="1.5s" repeatCount="indefinite"><mpath href="#p5"/></animateMotion></circle>
+    </g>
+
+    <!-- logo -->
+    <g transform="translate(118 158)"><g class="float">
+      <circle r="62" fill="none" stroke="#8B5CF6" stroke-opacity=".5" stroke-width="2" class="pulse"/>
+      <polygon points="0,-54 46.8,-27 46.8,27 0,54 -46.8,27 -46.8,-27" fill="url(#hex)"/>
+      <path d="M-18 24V-24H-7.5L10 4.5V-24H19.5V24H9L-8.5 -4.5V24Z" fill="#fff"/>
+    </g></g>
+
+    <!-- text -->
+    <text x="196" y="138" class="t" font-size="15" letter-spacing="3" fill="#A5B4FC" font-weight="600">DIGITAL AGENCY · OPEN SOURCE</text>
+    <text x="196" y="186" class="t" font-size="46" font-weight="800" fill="url(#txt)">Nexonic Technologies</text>
+    <g class="t" font-size="27" font-weight="600">
+      <text class="word w1" x="196" y="236" fill="#FFFFFF">Websites that look good <tspan fill="#F97316">and actually sell.</tspan></text>
+      <text class="word w2" x="196" y="236" fill="#FFFFFF">Get found on Google <tspan fill="#F97316">by the right customers.</tspan></text>
+      <text class="word w3" x="196" y="236" fill="#FFFFFF">Google &amp; Meta ads <tspan fill="#F97316">that bring real leads.</tspan></text>
+      <text class="word w4" x="196" y="236" fill="#FFFFFF">AI automation <tspan fill="#F97316">that works day and night.</tspan></text>
+    </g>
+    <text x="196" y="282" class="t" font-size="17" fill="#C9CBE0">Web design · SEO · Google &amp; Meta Ads · AI chatbots · E-commerce</text>
+
+    <!-- url pill -->
+    <g transform="translate(196 312)">
+      <rect width="300" height="40" rx="20" fill="#FFFFFF" fill-opacity=".08" stroke="#FFFFFF" stroke-opacity=".18"/>
+      <circle cx="22" cy="20" r="5" fill="#22C55E"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+      <text x="38" y="26" class="t" font-size="16" fill="#FFFFFF" font-weight="600">nexonictechnologies.com</text>
+      <rect x="248" y="11" width="2" height="18" fill="#F97316" class="caret"/>
+    </g>
+
+    <!-- browser mockup -->
+    <g transform="translate(860 120)"><g class="float2">
+      <rect width="330" height="210" rx="14" fill="#0F1122" stroke="#FFFFFF" stroke-opacity=".14"/>
+      <rect width="330" height="34" rx="14" fill="#FFFFFF" fill-opacity=".06"/>
+      <circle cx="20" cy="17" r="5" fill="#F87171"/><circle cx="38" cy="17" r="5" fill="#FBBF24"/><circle cx="56" cy="17" r="5" fill="#34D399"/>
+      <rect x="78" y="10" width="200" height="14" rx="7" fill="#FFFFFF" fill-opacity=".08"/>
+      <text x="22" y="66" class="t" font-size="13" fill="#A5B4FC" font-weight="600">Organic traffic</text>
+      <text x="22" y="92" class="t" font-size="24" fill="#FFFFFF" font-weight="800">Growing</text>
+      <g transform="translate(22 190)">
+        <rect class="bar" x="0" y="-60" width="30" height="60" rx="5" fill="#4F46E5"/>
+        <rect class="bar b2" x="44" y="-75" width="30" height="75" rx="5" fill="#6366F1"/>
+        <rect class="bar b3" x="88" y="-58" width="30" height="58" rx="5" fill="#7C3AED"/>
+        <rect class="bar b4" x="132" y="-85" width="30" height="85" rx="5" fill="#8B5CF6"/>
+        <rect class="bar b5" x="176" y="-95" width="30" height="95" rx="5" fill="#F97316"/>
+      </g>
+      <g transform="translate(278 118)">
+        <circle r="26" fill="none" stroke="#FFFFFF" stroke-opacity=".12" stroke-width="6"/>
+        <circle r="26" fill="none" stroke="#22C55E" stroke-width="6" stroke-dasharray="150 164" stroke-linecap="round" transform="rotate(-90)"/>
+        <text y="6" text-anchor="middle" class="t" font-size="15" fill="#fff" font-weight="800">92</text>
+      </g>
+      <text x="278" y="166" text-anchor="middle" class="t" font-size="10" fill="#C9CBE0">PageSpeed</text>
+    </g></g>
+    <g transform="translate(1196 112)"><circle class="ring" r="22" fill="none" stroke="#F97316" stroke-opacity=".6" stroke-width="2" stroke-dasharray="6 8"/></g>
+  </g>
+  <rect x=".5" y=".5" width="1279" height="419" rx="22" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+</svg>
