@@ -33,7 +33,7 @@ We build software and give it away. No ads, no sign-up, no tracking.
     <td width="50%" valign="top">
       <a href="https://nexonictechnologies.com/project/scruvix/"><img src="https://nexonictechnologies.com/wp-content/uploads/2026/11/nexonic-scruvix-banner.webp" alt="Scruvix"></a>
       <h3>Scruvix</h3>
-      Cleans and converts files on every platform, with a simple app and a command-line tool.<br><br>
+      Removes hidden metadata from photos, videos, audio and PDFs, offline, with a simple app and a command-line tool.<br><br>
       <a href="https://nexonictechnologies.com/project/scruvix/"><b>Explore Scruvix →</b></a>
     </td>
     <td width="50%" valign="top">
